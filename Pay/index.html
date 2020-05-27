@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F.S.F.T.</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@500;700&family=Krub:wght@200;400;500;600;700&family=Livvic:wght@500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.css">
+</head>
+<body>
+
+                            <!-- INTRO -->
+
+<div class="intro ">
+    <div class="container">
+        <div class="row d-flex align-items-center animated fadeInDown">
+            <div class="col-lg-2 d-flex justify-content-center">
+                <img src="img/logo.svg" alt="logotip" class="logo">
+            </div>
+
+            <div class="col-lg-2">
+                <nav class="leng d-flex justify-content-center">
+                    <a class = "nav_link" href="#">ENG</a>
+                    <a class = "nav_link" href="#">UA</a>
+                    <a class = "nav_link" href="#">RU</a>
+                </nav>
+            </div>
+
+            <div class="col-lg-6 ml-auto">
+                <nav class="menu d-flex justify-content-center">
+                    <a class = "nav_link_1" href="#section2">SEARCH</a>
+                    <a class = "nav_link_1" href="#section">ADD</a>
+                    <a class = "nav_link_1" href="#section3">SPONSORS</a>
+                </nav>
+            </div>
+
+        </div>
+
+        <div class="row d-flex justify-content-center animated fadeInRight">
+            <div class="col-lg-10 intro_inner">
+                <h1 class = "intro_title">F.S.F.T.</h1>
+                <p class = "intro_description">F.S.F.T. - first school football tournament wich going to be arranged in Lviv in 2020. Make your school proud of you. Make your own team from 7 to 11 grade. Win the championship and get some awesome prizes. Prove that your school is the best!</p>
+            </div>
+        </div>
+    </div>
+</div>
+                        <!-- \ INTRO -->
+
+
+                                    <!-- SECTION -->
+
+                                 <!-- \SECTION -->
+
+<section id="section2" class="section2">
+    <div class="container">
+        <div class="row ">
+            <div class="section2_inner col-lg-10 animated fadeInRight">
+                <div class="row section2_inner_header ">
+                    <h1 class = "col-lg-12 section2_inner_header_title ">
+                        Search player 
+                    </h1>
+                    <h3 class = "col-lg-12 section2_inner_header_subtitle">
+                        Find some information about football players
+                    </h3>         
+                </div>
+
+                <div class="row section2_inner_body ">
+                    <div class="col-lg-12 section2_inner_body_byname d-flex justify-content-center">
+                        <!-- <div class="section2_inner_body_byname_cheker ">
+                            <input class = 'section2_inner_body_byname_cheker_1' type="radio" name="a" value="By name">
+                        </div> -->
+                        <form action="" method="GET" class = "forma">
+                            <label for="current_supplement">By name:</label>
+                            <input id="current_supplement" type="text" placeholder="Enter name of player" name="name" class='section2_inner_body_byname_input'>
+                            <input id="current_supplement_submit"type="button" value="Search" class="section2_inner_body_byname_input_button">
+                          </form>
+                        
+                        
+                        
+                    </div>
+
+                    <!-- <div class="section2_inner_body_byphoto">
+                        
+    
+                        <div class="col-lg-12 d-flex">
+                            <div class="section2_inner_body_byphoto_cheker">
+                                <input class = 'section2_inner_body_byphoto_cheker_1' type="radio" name="a" value="By photo">
+                            </div>
+                            
+                            <form enctype="multipart/form-data" method="post" > 
+                                <p >
+                                    <label for="">By photo:</label>
+                                    <input type="file" name="photo" accept="image/*,image/jpeg" class = 'section2_inner_body_byphoto_choose'>
+                                    <input type="submit"  value="Search" class ="section2_inner_body_byphoto_send">
+                                </p>
+                            </form>
+                            
+                        </div>
+                    </div> -->
+
+                    <div class="col-lg-12 section2_inner_body_results">
+                        <span class = "section2_inner_body_results_h" id ="section2_inner_body_results_h"></span>
+                        <div class="supplement-criteria"><span id="supplement-0"></span><span id="supplement-class"></span></div>
+                        <div class="supplement-criteria"><span id="supplement-1"></span><span id="supplement-purpose"></span></div>
+                        <div class="supplement-criteria"><span id="supplement-2"></span><span id="supplement-side-effects"></span></div>
+                    </div>
+
+            </div>
+        </div>    
+    </div> 
+</section>
+
+
+
+<section id="section" class="section">
+    <div class="container">
+        <div class="row ">
+            <div class="section_inner col-lg-10 animated fadeInLeft">
+
+                
+
+                <div class="row section2_inner_header">
+                    <h1 class = "col-lg-12 section2_inner_header_title ">
+                        Add new player
+                    </h1>
+                    <h3 class = "col-lg-12 section2_inner_header_subtitle">
+                        Register yourself in tournament
+                    </h3>         
+                </div>
+
+                
+                <div class="row section_inner_body d-flex j">
+                    <div class="col-lg-10 section_inner_body_form">
+                        <h2 class='section_inner_body_form_title'>Name</h2>
+                        <form class="section_inner_body_form_input">
+                            <input class = "section_inner_body_form_input_1" type="text" >
+                        </form>  
+                    </div>
+                    <div class="col-lg-10 section_inner_body_form">
+                        <h2 class='section_inner_body_form_title'>Number in team</h2>
+                        <form class="section_inner_body_form_input">
+                            <input class = "section_inner_body_form_input_1" type="text">
+                        </form>  
+                    </div>
+
+                    <div class="col-lg-10 section_inner_body_form">
+                        <h2 class='section_inner_body_form_title'>School</h2>
+                        <form class="section_inner_body_form_input">
+                            <input class = "section_inner_body_form_input_1" type="text">
+                        </form>  
+                    </div>
+
+                    <div class="col-lg-10 section_inner_body_form">
+                        <h2 class='section_inner_body_form_title'>Age</h2>
+                        <form class="section_inner_body_form_input">
+                            <input class = "section_inner_body_form_input_1" type="text">
+                        </form>  
+                    </div>
+
+
+                   
+
+                    <div class="col-lg-6">
+						<input type="submit" value="Add player" class=" section_inner_body_button">
+					</div>
+                    
+
+                </div>
+
+            </div>
+        </div>
+    </div> 
+</section>
+
+<section id="section3" class="section3">
+    <div class="container">
+        <div class="row ">
+            <div class="section3_inner col-lg-10 animated fadeInRight">
+                <div class="row section3_inner_header ">
+                    <h1 class = "col-lg-12 section3_inner_header_title ">
+                        Our sponsors
+                    </h1>    
+                </div>
+                <div class="row section3_inner_body d-flex justify-content-center">
+                    <div class="col-lg-2 section3_inner_body_person">
+                        <img src="img/vlad.jpg" alt="" class="section3_inner_body_person_photo">
+                        <p class = 'section3_inner_body_person_name'> Lviv city council</p>
+                        
+                    </div>
+                    <div class="col-lg-2 section3_inner_body_person">
+                        <img src="img/nastya.jpg" alt="" class="section3_inner_body_person_photo">
+                        <p class = 'section3_inner_body_person_name1'> FK ENERGIA </p>
+                        
+                    </div>
+                    <div class="col-lg-2 section3_inner_body_person">
+                        <img src="img/oleg.jpg" alt="" class="section3_inner_body_person_photo">
+                        <p class = 'section3_inner_body_person_name'> JOMA</p>
+                    </div>
+                    <div class="col-lg-2 section3_inner_body_person">
+                        <img src="img/olya.jpg" alt="" class="section3_inner_body_person_photo">
+                        <p class = 'section3_inner_body_person_name'> NULP </p>
+                    </div>
+                    <div class="col-lg-2 section3_inner_body_person">
+                        <img src="img/best.jpg" alt="" class="section3_inner_body_person_photo">
+                        <p class = 'section3_inner_body_person_name'> BEST LVIV </p>
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </div> 
+</section>
+
+<footer id = 'footer' class = 'footer'>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 d-flex justify-content-center">
+                <div class="row">
+                    <div class="footer_logo col-lg-2">
+                        <img src="img/logo.svg" alt="logotip" class = 'footer_logo_img'>
+                    </div>
+                    <div class="footer_text col-lg-10">
+                            Created by: Andriy Paykush <br>
+                            © 2020 F.S.F.T. All rights reserved. Ukraine. Lviv<br>
+                            Site designed and created by: apaykush@gmail.com <br>
+                            Contacts: +38 (096) 26 79 656 <br>
+                      
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </div> 
+</footer>
+
+
+
+
+
+</body>
+<script src="js/supplements.js"></script>
+</html>
+
+
